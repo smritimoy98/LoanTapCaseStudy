@@ -75,3 +75,26 @@ Given a set of attributes for an Individual, determine if a credit line should b
 
 27.Address: Address of the individual
 
+## Task Performed
+1.Import the dataset and do usual exploratory data analysis steps like checking the structure & characteristics of the dataset
+
+2.Check how much target variable (Loan_Status) depends on different predictor variables (Use count plots, box plots, heat maps etc)
+
+3.Check correlation among independent variables and how they interact with each other
+
+4.Simple Feature Engineering steps:Creation of Flags- If value greater than 1.0 then 1 else 0. This can be done on following.
+ 1. Pub_rec
+ 2. Mort_acc
+ 3. Pub_rec_bankruptcies
+
+5.Missing values and Outlier Treatment
+
+6.Scaling - Using MinMaxScaler or StandardScaler
+
+7.Use Logistic Regression Model from Sklearn/Statsmodel library and explain the results
+
+8.Results Evaluation:
+ 1.Classification Report
+ 2.ROC AUC curve
+ 3.Precision recall curve
+
